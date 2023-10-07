@@ -1,0 +1,66 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+header a{
+    color: aliceblue;
+}
+header{ height: 85px;
+    width: 100vw;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #030303;
+    position: fixed;
+   z-index: 1;
+}
+.bars{cursor: pointer;
+    display: none;
+    font-size: 23px;
+}
+.dFlex{
+    display: flex !important;
+}
+.mobileMenu{display: none;
+    font-size: 24px;
+    gap: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    flex-direction: column;
+    width: 220px;
+    height: 330px;
+    position: absolute;
+    top: 86px;
+    right: 0;
+    background: #000;
+    padding: 20px 15px;
+}
+.magnifying{
+    font-size: 23px;
+    cursor: pointer;
+}
+#glass2{
+    display: none;
+}
+.row{align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+header .row{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav{display: flex;
+    gap:35px;
+font-size: 14px;
+}
+header nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.socialMedia svg{font-size: 20px;
+    padding: 4px;
+}
