@@ -26,10 +26,6 @@ var swiper = new Swiper(".mySwiper", {
  });
 
 
-
-
-
- 
  const swiperWrapper=document.querySelector(".swiper-wrapper")
 const url="http://localhost:3000/sherablar";
 axios(url).then(({data})=>{
